@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula 6- Calcular UMC</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1> Calcular UMC</h1>
+  </header>
+  <main>
+    <div class="container">
+      <div class="content">
+        <p>Informe os dados abaixo para que o programe realize os calculos</p>
+        <p>
+          <label for="input-weight">Peso (kg)</label><br>
+          <input id="input-weight" type="number" value="105" step="0.1" />
+        </p>
+        <p>
+          <label for="input-height">Altura (m)</label><br />
+          <input id="input-height" type="number" value="1.86" step="0.01" />
+        </p>
+
+        <p>
+          <button id="btn-calcular-imc">Calcular imc</button>
+        </p>
+
+        <p id="paragrafo-resultado">
+          O IMC desses dados é: <strong id="imcResult"></strong>
+        </p>
+      </div>
+    </div>
+  </main>
+  <script defer src="./js/script.js"></script>
+</body>
+
+</html>
